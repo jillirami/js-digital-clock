@@ -25,11 +25,11 @@ $(document).ready(function() {
   function getTime() {
   //   // const watch = $(`<p>${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}</p>`)
   //   // $('#clock').append(watch);
-  //   // const calendar = $(`<p id='small'>${dayWeek[date.getDay()]}, Day ${date.getDate()} of Month ${date.getMonth() + 1} of Year ${date.getFullYear()} </p>`)
+    // const calendar = $(`<p id='small'>${dayWeek[date.getDay()]}, Day ${date.getDate()} of Month ${date.getMonth() + 1} of Year ${date.getFullYear()} </p>`)
     
     const date = new Date();
-    document.getElementById('clock').innerHTML = date.toLocaleTimeString();
-    $("#clock").html(date.toLocaleTimeString());
+    // document.getElementById('clock').innerHTML = date //.toLocaleTimeString();
+    $("#clock").html(date);
     }
   
   
