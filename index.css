@@ -20,6 +20,31 @@ body {
     font-size: 100px;
 }
 
+button {
+    min-height: 15px;
+    min-width: 15px;
+}
+
+#red {
+    background-color: red;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#tan {
+    background-color: tan;
+}
+
+#helvetica {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#times {
+    font-family: 'Times New Roman', Times, serif;
+}
+/* 
 #small {
     font-size: 50px;
-}
+} */
